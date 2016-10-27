@@ -7,11 +7,26 @@ to learn all the basics about `hoodie.store` and `hoodie.account`.
 
 ## Requirements
 
+Hoodie Camp Tutorial requires the following:
+
 - [git](http://www.git-scm.com/)
-- [node](https://nodejs.org/en/) v4.4+
+- [node](https://nodejs.org/en/download/) v4.4+
 - npm v3+. npm comes with node, check with `npm -v`, install latest: `npm install -g npm`
+- If permission is denied while global installing npm, fix your folder permission by typing the following in command line:
+
+Take ownership of the .npm directory:
+```
+sudo chown -R $(whoami) ~/.npm
+```
+Write permission for the node_modules directory:
+```
+sudo chown -R $USER /usr/local/lob/node_modules
+```
+
 
 ## Installation & start
+
+In the command line, type the following:
 
 ```
 git clone https://github.com/hoodiehq/hoodie-camp-tutorial.git
